@@ -1,7 +1,7 @@
 pipeline {
     agent  { label 'agent-01' }
     tools {
-        maven 'maven3'
+        maven 'My-Mavan'
         jdk   'java17'
     }
     stages {
